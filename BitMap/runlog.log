@@ -1,0 +1,4230 @@
+Error: Target id is not valid. Use 'android.bat list targets' to get the target ids.
+What? Buildfile: build.xml is a dir!
+Build failed
+adb: error: cannot stat 'F:\Users\0622\workspace\BitMap\bin\demo.jar': No such file or directory
+INSTRUMENTATION_RESULT: shortMsg=java.lang.RuntimeException
+
+INSTRUMENTATION_RESULT: longMsg=Didn't find class "com.tencent.BitMap" on path: DexPathList[[zip file "/system/framework/android.test.runner.jar", zip file "/system/framework/uiautomator.jar", zip file "/data/local/tmp/demo.jar"],nativeLibraryDirectories=[/vendor/lib, /system/lib]]
+
+INSTRUMENTATION_CODE: 0
+
+Error: Target id is not valid. Use 'android.bat list targets' to get the target ids.
+What? Buildfile: build.xml is a dir!
+Build failed
+adb: error: cannot stat 'F:\Users\0622\workspace\BitMap\bin\demo.jar': No such file or directory
+INSTRUMENTATION_RESULT: shortMsg=java.lang.RuntimeException
+
+INSTRUMENTATION_RESULT: longMsg=Didn't find class "com.tencent.BitMap" on path: DexPathList[[zip file "/system/framework/android.test.runner.jar", zip file "/system/framework/uiautomator.jar", zip file "/data/local/tmp/demo.jar"],nativeLibraryDirectories=[/vendor/lib, /system/lib]]
+
+INSTRUMENTATION_CODE: 0
+
+Error: Target id is not valid. Use 'android.bat list targets' to get the target ids.
+What? Buildfile: build.xml is a dir!
+Build failed
+adb: error: cannot stat 'F:\Users\0622\workspace\BitMap\bin\demo.jar': No such file or directory
+INSTRUMENTATION_RESULT: shortMsg=java.lang.RuntimeException
+
+INSTRUMENTATION_RESULT: longMsg=Didn't find class "com.tencent.BitMap" on path: DexPathList[[zip file "/system/framework/android.test.runner.jar", zip file "/system/framework/uiautomator.jar", zip file "/data/local/tmp/demo.jar"],nativeLibraryDirectories=[/vendor/lib, /system/lib]]
+
+INSTRUMENTATION_CODE: 0
+
+Error: Could not access F:\Users\0622\workspace\BitMap\build.xml: F:\Users\0622\workspace\BitMap\build.xml (�ܾ����ʡ�)
+What? Buildfile: build.xml is a dir!
+Build failed
+adb: error: cannot stat 'F:\Users\0622\workspace\BitMap\bin\demo.jar': No such file or directory
+INSTRUMENTATION_RESULT: shortMsg=java.lang.RuntimeException
+
+INSTRUMENTATION_RESULT: longMsg=Didn't find class "com.tencent.BitMap" on path: DexPathList[[zip file "/system/framework/android.test.runner.jar", zip file "/system/framework/uiautomator.jar", zip file "/data/local/tmp/demo.jar"],nativeLibraryDirectories=[/vendor/lib, /system/lib]]
+
+INSTRUMENTATION_CODE: 0
+
+Added file F:\Users\0622\workspace\BitMap\build.xml
+Buildfile: F:\Users\0622\workspace\BitMap\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 25.2.4
+ [checkenv] Installed at E:\android-sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 25.0.2
+     [echo] Resolving Build Target for demo...
+[getuitarget] Project Target:   Android 4.4W.2
+[getuitarget] API level:        20
+     [echo] ----------
+     [echo] Creating output directories if needed...
+    [mkdir] Created dir: F:\Users\0622\workspace\BitMap\bin\classes
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 4 source files to F:\Users\0622\workspace\BitMap\bin\classes
+    [javac] ����: [options] Դֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ŀ��ֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ҫ�����й��ѹ�ʱѡ��ľ���, ��ʹ�� -Xlint:-options��
+    [javac] 3 ������
+    [javac] Creating empty F:\Users\0622\workspace\BitMap\bin\classes\com\tencent\package-info.class
+
+-post-compile:
+
+-dex:
+      [dex] input: F:\Users\0622\workspace\BitMap\bin\classes
+      [dex] Converting compiled files and external libraries into F:\Users\0622\workspace\BitMap\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: F:\Users\0622\workspace\BitMap\bin\demo.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 3 seconds
+[100%] /data/local/tmp/demo.jar
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.tencent.BitMap:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testBitMap
+
+INSTRUMENTATION_STATUS: class=com.tencent.BitMap
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+Failure in testBitMap:
+
+junit.framework.AssertionFailedError: Method "testBitMap" not found
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.start(UiAutomatorTestRunner.java:160)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.run(UiAutomatorTestRunner.java:96)
+
+	at com.android.commands.uiautomator.RunTestCommand.run(RunTestCommand.java:91)
+
+	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
+
+	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+
+	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:248)
+
+	at dalvik.system.NativeStart.main(Native Method)
+
+
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testBitMap
+
+INSTRUMENTATION_STATUS: class=com.tencent.BitMap
+
+INSTRUMENTATION_STATUS: stack=junit.framework.AssertionFailedError: Method "testBitMap" not found
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.start(UiAutomatorTestRunner.java:160)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.run(UiAutomatorTestRunner.java:96)
+
+	at com.android.commands.uiautomator.RunTestCommand.run(RunTestCommand.java:91)
+
+	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
+
+	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+
+	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:248)
+
+	at dalvik.system.NativeStart.main(Native Method)
+
+
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: -2
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.F
+
+Time: 0.082
+
+
+
+FAILURES!!!
+
+Tests run: 1,  Failures: 1,  Errors: 0
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+Updated file F:\Users\0622\workspace\BitMap\build.xml
+Buildfile: F:\Users\0622\workspace\BitMap\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 25.2.4
+ [checkenv] Installed at E:\android-sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 25.0.2
+     [echo] Resolving Build Target for demo...
+[getuitarget] Project Target:   Android 4.4W.2
+[getuitarget] API level:        20
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 1 source file to F:\Users\0622\workspace\BitMap\bin\classes
+    [javac] ����: [options] Դֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ŀ��ֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ҫ�����й��ѹ�ʱѡ��ľ���, ��ʹ�� -Xlint:-options��
+    [javac] 3 ������
+
+-post-compile:
+
+-dex:
+      [dex] input: F:\Users\0622\workspace\BitMap\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into F:\Users\0622\workspace\BitMap\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: F:\Users\0622\workspace\BitMap\bin\demo.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 1 second
+[100%] /data/local/tmp/demo.jar
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.tencent.BitMap:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=TestBitMap
+
+INSTRUMENTATION_STATUS: class=com.tencent.BitMap
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+java.io.FileNotFoundException: /mut/sdcard/bitmap.jpg: open failed: ENOENT (No such file or directory)
+
+	at libcore.io.IoBridge.open(IoBridge.java:409)
+
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:88)
+
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:128)
+
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:117)
+
+	at com.tencent.BitMapTestBase.saveBitMapToSDcard(BitMapTestBase.java:15)
+
+	at com.tencent.BitMap.TestBitMap(BitMap.java:27)
+
+	at java.lang.reflect.Method.invokeNative(Native Method)
+
+	at java.lang.reflect.Method.invoke(Method.java:515)
+
+	at junit.framework.TestCase.runTest(TestCase.java:168)
+
+	at junit.framework.TestCase.runBare(TestCase.java:134)
+
+	at junit.framework.TestResult$1.protect(TestResult.java:115)
+
+	at junit.framework.TestResult.runProtected(TestResult.java:133)
+
+	at junit.framework.TestResult.run(TestResult.java:118)
+
+	at junit.framework.TestCase.run(TestCase.java:124)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.start(UiAutomatorTestRunner.java:160)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.run(UiAutomatorTestRunner.java:96)
+
+	at com.android.commands.uiautomator.RunTestCommand.run(RunTestCommand.java:91)
+
+	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
+
+	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+
+	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:248)
+
+	at dalvik.system.NativeStart.main(Native Method)
+
+Caused by: libcore.io.ErrnoException: open failed: ENOENT (No such file or directory)
+
+	at libcore.io.Posix.open(Native Method)
+
+	at libcore.io.BlockGuardOs.open(BlockGuardOs.java:110)
+
+	at libcore.io.IoBridge.open(IoBridge.java:393)
+
+	... 20 more
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=TestBitMap
+
+INSTRUMENTATION_STATUS: class=com.tencent.BitMap
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.
+
+Time: 2.699
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+Updated file F:\Users\0622\workspace\BitMap\build.xml
+Buildfile: F:\Users\0622\workspace\BitMap\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 25.2.4
+ [checkenv] Installed at E:\android-sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 25.0.2
+     [echo] Resolving Build Target for demo...
+[getuitarget] Project Target:   Android 4.4W.2
+[getuitarget] API level:        20
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 1 source file to F:\Users\0622\workspace\BitMap\bin\classes
+    [javac] ����: [options] Դֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ŀ��ֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ҫ�����й��ѹ�ʱѡ��ľ���, ��ʹ�� -Xlint:-options��
+    [javac] 3 ������
+
+-post-compile:
+
+-dex:
+      [dex] input: F:\Users\0622\workspace\BitMap\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into F:\Users\0622\workspace\BitMap\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: F:\Users\0622\workspace\BitMap\bin\demo.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 1 second
+[100%] /data/local/tmp/demo.jar
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.tencent.BitMap:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=TestBitMap
+
+INSTRUMENTATION_STATUS: class=com.tencent.BitMap
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=TestBitMap
+
+INSTRUMENTATION_STATUS: class=com.tencent.BitMap
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.
+
+Time: 2.336
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+Updated file F:\Users\0622\workspace\BitMap\build.xml
+Buildfile: F:\Users\0622\workspace\BitMap\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 25.2.4
+ [checkenv] Installed at E:\android-sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 25.0.2
+     [echo] Resolving Build Target for demo...
+[getuitarget] Project Target:   Android 4.4W.2
+[getuitarget] API level:        20
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 2 source files to F:\Users\0622\workspace\BitMap\bin\classes
+    [javac] ����: [options] Դֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ŀ��ֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ҫ�����й��ѹ�ʱѡ��ľ���, ��ʹ�� -Xlint:-options��
+    [javac] 3 ������
+
+-post-compile:
+
+-dex:
+      [dex] input: F:\Users\0622\workspace\BitMap\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into F:\Users\0622\workspace\BitMap\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: F:\Users\0622\workspace\BitMap\bin\demo.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 4 seconds
+* daemon not running. starting it now on port 5037 *
+adb: error: connect failed: cannot connect to daemon
+error: Invalid argument: cannot open transport registration socketpair
+could not read ok from ADB Server
+* failed to start daemon *
+* daemon not running. starting it now on port 5037 *
+error: Invalid argument: cannot open transport registration socketpair
+could not read ok from ADB Server
+* failed to start daemon *
+error: cannot connect to daemon
+Updated file F:\Users\0622\workspace\BitMap\build.xml
+Buildfile: F:\Users\0622\workspace\BitMap\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 25.2.4
+ [checkenv] Installed at E:\android-sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 25.0.2
+     [echo] Resolving Build Target for demo...
+[getuitarget] Project Target:   Android 4.4W.2
+[getuitarget] API level:        20
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+
+-post-compile:
+
+-dex:
+      [dex] input: F:\Users\0622\workspace\BitMap\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into F:\Users\0622\workspace\BitMap\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: F:\Users\0622\workspace\BitMap\bin\demo.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 1 second
+* daemon not running. starting it now on port 5037 *
+adb: error: connect failed: cannot connect to daemon
+error: Invalid argument: cannot open transport registration socketpair
+could not read ok from ADB Server
+* failed to start daemon *
+* daemon not running. starting it now on port 5037 *
+error: Invalid argument: cannot open transport registration socketpair
+could not read ok from ADB Server
+* failed to start daemon *
+error: cannot connect to daemon
+Updated file F:\Users\0622\workspace\BitMap\build.xml
+Buildfile: F:\Users\0622\workspace\BitMap\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 25.2.4
+ [checkenv] Installed at E:\android-sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 25.0.2
+     [echo] Resolving Build Target for demo...
+[getuitarget] Project Target:   Android 4.4W.2
+[getuitarget] API level:        20
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+
+-post-compile:
+
+-dex:
+      [dex] input: F:\Users\0622\workspace\BitMap\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into F:\Users\0622\workspace\BitMap\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: F:\Users\0622\workspace\BitMap\bin\demo.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 1 second
+* daemon not running. starting it now on port 5037 *
+* daemon started successfully *
+[100%] /data/local/tmp/demo.jar
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.tencent.BitMap:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=path
+
+INSTRUMENTATION_STATUS: class=com.tencent.BitMap
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+Failure in path:
+
+junit.framework.AssertionFailedError: Method "path" not found
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.start(UiAutomatorTestRunner.java:160)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.run(UiAutomatorTestRunner.java:96)
+
+	at com.android.commands.uiautomator.RunTestCommand.run(RunTestCommand.java:91)
+
+	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
+
+	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+
+	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:248)
+
+	at dalvik.system.NativeStart.main(Native Method)
+
+
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=path
+
+INSTRUMENTATION_STATUS: class=com.tencent.BitMap
+
+INSTRUMENTATION_STATUS: stack=junit.framework.AssertionFailedError: Method "path" not found
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.start(UiAutomatorTestRunner.java:160)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.run(UiAutomatorTestRunner.java:96)
+
+	at com.android.commands.uiautomator.RunTestCommand.run(RunTestCommand.java:91)
+
+	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
+
+	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+
+	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:248)
+
+	at dalvik.system.NativeStart.main(Native Method)
+
+
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: -2
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.F
+
+Time: 0.065
+
+
+
+FAILURES!!!
+
+Tests run: 1,  Failures: 1,  Errors: 0
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+Updated file F:\Users\0622\workspace\BitMap\build.xml
+Buildfile: F:\Users\0622\workspace\BitMap\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 25.2.4
+ [checkenv] Installed at E:\android-sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 25.0.2
+     [echo] Resolving Build Target for demo...
+[getuitarget] Project Target:   Android 4.4W.2
+[getuitarget] API level:        20
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 1 source file to F:\Users\0622\workspace\BitMap\bin\classes
+    [javac] ����: [options] Դֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ŀ��ֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ҫ�����й��ѹ�ʱѡ��ľ���, ��ʹ�� -Xlint:-options��
+    [javac] 3 ������
+
+-post-compile:
+
+-dex:
+      [dex] input: F:\Users\0622\workspace\BitMap\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into F:\Users\0622\workspace\BitMap\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: F:\Users\0622\workspace\BitMap\bin\demo.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 2 seconds
+[100%] /data/local/tmp/demo.jar
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.tencent.BitMap:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testCutImageAndColorPixel
+
+INSTRUMENTATION_STATUS: class=com.tencent.BitMap
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+颜色值为：-10293920
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testCutImageAndColorPixel
+
+INSTRUMENTATION_STATUS: class=com.tencent.BitMap
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.
+
+Time: 4.563
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+Updated file F:\Users\0622\workspace\BitMap\build.xml
+Buildfile: F:\Users\0622\workspace\BitMap\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 25.2.4
+ [checkenv] Installed at E:\android-sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 25.0.2
+     [echo] Resolving Build Target for demo...
+[getuitarget] Project Target:   Android 4.4W.2
+[getuitarget] API level:        20
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 2 source files to F:\Users\0622\workspace\BitMap\bin\classes
+    [javac] ����: [options] Դֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ŀ��ֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ҫ�����й��ѹ�ʱѡ��ľ���, ��ʹ�� -Xlint:-options��
+    [javac] 3 ������
+
+-post-compile:
+
+-dex:
+      [dex] input: F:\Users\0622\workspace\BitMap\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into F:\Users\0622\workspace\BitMap\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: F:\Users\0622\workspace\BitMap\bin\demo.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 4 seconds
+[100%] /data/local/tmp/demo.jar
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.tencent.BitMap:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testEmbedText
+
+INSTRUMENTATION_STATUS: class=com.tencent.BitMap
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testEmbedText
+
+INSTRUMENTATION_STATUS: class=com.tencent.BitMap
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.
+
+Time: 2.353
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+Updated file F:\Users\0622\workspace\BitMap\build.xml
+Buildfile: F:\Users\0622\workspace\BitMap\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 25.2.4
+ [checkenv] Installed at E:\android-sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 25.0.2
+     [echo] Resolving Build Target for demo...
+[getuitarget] Project Target:   Android 4.4W.2
+[getuitarget] API level:        20
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 2 source files to F:\Users\0622\workspace\BitMap\bin\classes
+    [javac] ����: [options] Դֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ŀ��ֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ҫ�����й��ѹ�ʱѡ��ľ���, ��ʹ�� -Xlint:-options��
+    [javac] 3 ������
+
+-post-compile:
+
+-dex:
+      [dex] input: F:\Users\0622\workspace\BitMap\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into F:\Users\0622\workspace\BitMap\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: F:\Users\0622\workspace\BitMap\bin\demo.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 2 seconds
+[100%] /data/local/tmp/demo.jar
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.tencent.BitMap:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testIsSame
+
+INSTRUMENTATION_STATUS: class=com.tencent.BitMap
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testIsSame
+
+INSTRUMENTATION_STATUS: class=com.tencent.BitMap
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.
+
+Time: 4.276
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+Updated file F:\Users\0622\workspace\BitMap\build.xml
+Buildfile: F:\Users\0622\workspace\BitMap\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 25.2.4
+ [checkenv] Installed at E:\android-sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 25.0.2
+     [echo] Resolving Build Target for demo...
+[getuitarget] Project Target:   Android 4.4W.2
+[getuitarget] API level:        20
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+
+-post-compile:
+
+-dex:
+      [dex] input: F:\Users\0622\workspace\BitMap\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into F:\Users\0622\workspace\BitMap\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: F:\Users\0622\workspace\BitMap\bin\demo.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 1 second
+[100%] /data/local/tmp/demo.jar
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.tencent.BitMap:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testIsSame
+
+INSTRUMENTATION_STATUS: class=com.tencent.BitMap
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testIsSame
+
+INSTRUMENTATION_STATUS: class=com.tencent.BitMap
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.
+
+Time: 4.246
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+Updated file F:\Users\0622\workspace\BitMap\build.xml
+Buildfile: F:\Users\0622\workspace\BitMap\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 25.2.4
+ [checkenv] Installed at E:\android-sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 25.0.2
+     [echo] Resolving Build Target for demo...
+[getuitarget] Project Target:   Android 4.4W.2
+[getuitarget] API level:        20
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 1 source file to F:\Users\0622\workspace\BitMap\bin\classes
+    [javac] ����: [options] Դֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ŀ��ֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ҫ�����й��ѹ�ʱѡ��ľ���, ��ʹ�� -Xlint:-options��
+    [javac] 3 ������
+
+-post-compile:
+
+-dex:
+      [dex] input: F:\Users\0622\workspace\BitMap\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into F:\Users\0622\workspace\BitMap\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: F:\Users\0622\workspace\BitMap\bin\demo.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 2 seconds
+[100%] /data/local/tmp/demo.jar
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.tencent.BitMap:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testIsSame
+
+INSTRUMENTATION_STATUS: class=com.tencent.BitMap
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+对比结果为true
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testIsSame
+
+INSTRUMENTATION_STATUS: class=com.tencent.BitMap
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.
+
+Time: 4.309
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+Updated file F:\Users\0622\workspace\BitMap\build.xml
+Buildfile: F:\Users\0622\workspace\BitMap\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 25.2.4
+ [checkenv] Installed at E:\android-sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 25.0.2
+     [echo] Resolving Build Target for demo...
+[getuitarget] Project Target:   Android 4.4W.2
+[getuitarget] API level:        20
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 1 source file to F:\Users\0622\workspace\BitMap\bin\classes
+    [javac] ����: [options] Դֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ŀ��ֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ҫ�����й��ѹ�ʱѡ��ľ���, ��ʹ�� -Xlint:-options��
+    [javac] 3 ������
+
+-post-compile:
+
+-dex:
+      [dex] input: F:\Users\0622\workspace\BitMap\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into F:\Users\0622\workspace\BitMap\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: F:\Users\0622\workspace\BitMap\bin\demo.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 2 seconds
+[100%] /data/local/tmp/demo.jar
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.tencent.BitMap:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testIsSame
+
+INSTRUMENTATION_STATUS: class=com.tencent.BitMap
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+对比结果为true
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testIsSame
+
+INSTRUMENTATION_STATUS: class=com.tencent.BitMap
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.
+
+Time: 5.098
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+Updated file F:\Users\0622\workspace\BitMap\build.xml
+Buildfile: F:\Users\0622\workspace\BitMap\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 25.2.4
+ [checkenv] Installed at E:\android-sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 25.0.2
+     [echo] Resolving Build Target for demo...
+[getuitarget] Project Target:   Android 4.4W.2
+[getuitarget] API level:        20
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 1 source file to F:\Users\0622\workspace\BitMap\bin\classes
+    [javac] ����: [options] Դֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ŀ��ֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ҫ�����й��ѹ�ʱѡ��ľ���, ��ʹ�� -Xlint:-options��
+    [javac] 3 ������
+
+-post-compile:
+
+-dex:
+      [dex] input: F:\Users\0622\workspace\BitMap\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into F:\Users\0622\workspace\BitMap\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: F:\Users\0622\workspace\BitMap\bin\demo.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 2 seconds
+[100%] /data/local/tmp/demo.jar
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.tencent.BitMap:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testIsSame
+
+INSTRUMENTATION_STATUS: class=com.tencent.BitMap
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+对比结果为false
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testIsSame
+
+INSTRUMENTATION_STATUS: class=com.tencent.BitMap
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.
+
+Time: 4.895
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+Updated file F:\Users\0622\workspace\BitMap\build.xml
+Buildfile: F:\Users\0622\workspace\BitMap\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 25.2.4
+ [checkenv] Installed at E:\android-sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 25.0.2
+     [echo] Resolving Build Target for demo...
+[getuitarget] Project Target:   Android 4.4W.2
+[getuitarget] API level:        20
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 1 source file to F:\Users\0622\workspace\BitMap\bin\classes
+    [javac] ����: [options] Դֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ŀ��ֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ҫ�����й��ѹ�ʱѡ��ľ���, ��ʹ�� -Xlint:-options��
+    [javac] 3 ������
+
+-post-compile:
+
+-dex:
+      [dex] input: F:\Users\0622\workspace\BitMap\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into F:\Users\0622\workspace\BitMap\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: F:\Users\0622\workspace\BitMap\bin\demo.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 2 seconds
+[100%] /data/local/tmp/demo.jar
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.tencent.BitMap:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testIsSame
+
+INSTRUMENTATION_STATUS: class=com.tencent.BitMap
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+相似度0.95
+
+对比结果为false
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testIsSame
+
+INSTRUMENTATION_STATUS: class=com.tencent.BitMap
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.
+
+Time: 5.861
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+Updated file F:\Users\0622\workspace\BitMap\build.xml
+Buildfile: F:\Users\0622\workspace\BitMap\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 25.2.4
+ [checkenv] Installed at E:\android-sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 25.0.2
+     [echo] Resolving Build Target for demo...
+[getuitarget] Project Target:   Android 4.4W.2
+[getuitarget] API level:        20
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 1 source file to F:\Users\0622\workspace\BitMap\bin\classes
+    [javac] ����: [options] Դֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ŀ��ֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ҫ�����й��ѹ�ʱѡ��ľ���, ��ʹ�� -Xlint:-options��
+    [javac] 3 ������
+
+-post-compile:
+
+-dex:
+      [dex] input: F:\Users\0622\workspace\BitMap\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into F:\Users\0622\workspace\BitMap\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: F:\Users\0622\workspace\BitMap\bin\demo.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 2 seconds
+[100%] /data/local/tmp/demo.jar
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.tencent.BitMap:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testIsSame
+
+INSTRUMENTATION_STATUS: class=com.tencent.BitMap
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+相似度0.95
+
+对比结果为true
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testIsSame
+
+INSTRUMENTATION_STATUS: class=com.tencent.BitMap
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.
+
+Time: 4.855
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+Updated file F:\Users\0622\workspace\BitMap\build.xml
+Buildfile: F:\Users\0622\workspace\BitMap\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 25.2.4
+ [checkenv] Installed at E:\android-sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 25.0.2
+     [echo] Resolving Build Target for demo...
+[getuitarget] Project Target:   Android 4.4W.2
+[getuitarget] API level:        20
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 1 source file to F:\Users\0622\workspace\BitMap\bin\classes
+    [javac] ����: [options] Դֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ŀ��ֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ҫ�����й��ѹ�ʱѡ��ľ���, ��ʹ�� -Xlint:-options��
+    [javac] 3 ������
+
+-post-compile:
+
+-dex:
+      [dex] input: F:\Users\0622\workspace\BitMap\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into F:\Users\0622\workspace\BitMap\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: F:\Users\0622\workspace\BitMap\bin\demo.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 2 seconds
+[100%] /data/local/tmp/demo.jar
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.tencent.BitMap:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testIsSame
+
+INSTRUMENTATION_STATUS: class=com.tencent.BitMap
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+相似度0.95
+
+对比结果为true
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testIsSame
+
+INSTRUMENTATION_STATUS: class=com.tencent.BitMap
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.
+
+Time: 5.823
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+Updated file F:\Users\0622\workspace\BitMap\build.xml
+Buildfile: F:\Users\0622\workspace\BitMap\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 25.2.4
+ [checkenv] Installed at E:\android-sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 25.0.2
+     [echo] Resolving Build Target for demo...
+[getuitarget] Project Target:   Android 4.4W.2
+[getuitarget] API level:        20
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 2 source files to F:\Users\0622\workspace\BitMap\bin\classes
+    [javac] ����: [options] Դֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ŀ��ֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ҫ�����й��ѹ�ʱѡ��ľ���, ��ʹ�� -Xlint:-options��
+    [javac] 3 ������
+
+-post-compile:
+
+-dex:
+      [dex] input: F:\Users\0622\workspace\BitMap\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into F:\Users\0622\workspace\BitMap\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: F:\Users\0622\workspace\BitMap\bin\demo.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 2 seconds
+[100%] /data/local/tmp/demo.jar
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.tencent.BitMap:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testIsSame
+
+INSTRUMENTATION_STATUS: class=com.tencent.BitMap
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+相似度1.0
+
+对比结果为true
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testIsSame
+
+INSTRUMENTATION_STATUS: class=com.tencent.BitMap
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.
+
+Time: 6.965
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+Updated file F:\Users\0622\workspace\BitMap\build.xml
+Buildfile: F:\Users\0622\workspace\BitMap\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 25.2.4
+ [checkenv] Installed at E:\android-sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 25.0.2
+     [echo] Resolving Build Target for demo...
+[getuitarget] Project Target:   Android 4.4W.2
+[getuitarget] API level:        20
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 1 source file to F:\Users\0622\workspace\BitMap\bin\classes
+    [javac] ����: [options] Դֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ŀ��ֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ҫ�����й��ѹ�ʱѡ��ľ���, ��ʹ�� -Xlint:-options��
+    [javac] 3 ������
+
+-post-compile:
+
+-dex:
+      [dex] input: F:\Users\0622\workspace\BitMap\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into F:\Users\0622\workspace\BitMap\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: F:\Users\0622\workspace\BitMap\bin\demo.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 2 seconds
+[100%] /data/local/tmp/demo.jar
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.tencent.BitMap:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testIsSame
+
+INSTRUMENTATION_STATUS: class=com.tencent.BitMap
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+相似度1.0
+
+对比结果为true
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testIsSame
+
+INSTRUMENTATION_STATUS: class=com.tencent.BitMap
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.
+
+Time: 6.428
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+Updated file F:\Users\0622\workspace\BitMap\build.xml
+Buildfile: F:\Users\0622\workspace\BitMap\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 25.2.4
+ [checkenv] Installed at E:\android-sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 25.0.2
+     [echo] Resolving Build Target for demo...
+[getuitarget] Project Target:   Android 4.4W.2
+[getuitarget] API level:        20
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+
+-post-compile:
+
+-dex:
+      [dex] input: F:\Users\0622\workspace\BitMap\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into F:\Users\0622\workspace\BitMap\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: F:\Users\0622\workspace\BitMap\bin\demo.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 1 second
+[100%] /data/local/tmp/demo.jar
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.tencent.BitMap:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testIsSame
+
+INSTRUMENTATION_STATUS: class=com.tencent.BitMap
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+相似度1.0
+
+对比结果为true
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testIsSame
+
+INSTRUMENTATION_STATUS: class=com.tencent.BitMap
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.
+
+Time: 6.329
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+Updated file F:\Users\0622\workspace\BitMap\build.xml
+Buildfile: F:\Users\0622\workspace\BitMap\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 25.2.4
+ [checkenv] Installed at E:\android-sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 25.0.2
+     [echo] Resolving Build Target for demo...
+[getuitarget] Project Target:   Android 4.4W.2
+[getuitarget] API level:        20
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 1 source file to F:\Users\0622\workspace\BitMap\bin\classes
+    [javac] ����: [options] Դֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ŀ��ֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ҫ�����й��ѹ�ʱѡ��ľ���, ��ʹ�� -Xlint:-options��
+    [javac] 3 ������
+
+-post-compile:
+
+-dex:
+      [dex] input: F:\Users\0622\workspace\BitMap\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into F:\Users\0622\workspace\BitMap\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: F:\Users\0622\workspace\BitMap\bin\demo.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 2 seconds
+[100%] /data/local/tmp/demo.jar
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.tencent.BitMap:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testIsSame
+
+INSTRUMENTATION_STATUS: class=com.tencent.BitMap
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+0
+
+相似度1.0
+
+对比结果为true
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testIsSame
+
+INSTRUMENTATION_STATUS: class=com.tencent.BitMap
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.
+
+Time: 6.399
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+Updated file F:\Users\0622\workspace\BitMap\build.xml
+Buildfile: F:\Users\0622\workspace\BitMap\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 25.2.4
+ [checkenv] Installed at E:\android-sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 25.0.2
+     [echo] Resolving Build Target for demo...
+[getuitarget] Project Target:   Android 4.4W.2
+[getuitarget] API level:        20
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 1 source file to F:\Users\0622\workspace\BitMap\bin\classes
+    [javac] ����: [options] Դֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ŀ��ֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ҫ�����й��ѹ�ʱѡ��ľ���, ��ʹ�� -Xlint:-options��
+    [javac] 3 ������
+
+-post-compile:
+
+-dex:
+      [dex] input: F:\Users\0622\workspace\BitMap\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into F:\Users\0622\workspace\BitMap\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: F:\Users\0622\workspace\BitMap\bin\demo.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 2 seconds
+[100%] /data/local/tmp/demo.jar
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.tencent.BitMap:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testIsSame
+
+INSTRUMENTATION_STATUS: class=com.tencent.BitMap
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+0
+
+0
+
+相似度1.0
+
+对比结果为true
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testIsSame
+
+INSTRUMENTATION_STATUS: class=com.tencent.BitMap
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.
+
+Time: 6.431
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+Updated file F:\Users\0622\workspace\BitMap\build.xml
+Buildfile: F:\Users\0622\workspace\BitMap\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 25.2.4
+ [checkenv] Installed at E:\android-sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 25.0.2
+     [echo] Resolving Build Target for demo...
+[getuitarget] Project Target:   Android 4.4W.2
+[getuitarget] API level:        20
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 1 source file to F:\Users\0622\workspace\BitMap\bin\classes
+    [javac] ����: [options] Դֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ŀ��ֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ҫ�����й��ѹ�ʱѡ��ľ���, ��ʹ�� -Xlint:-options��
+    [javac] 3 ������
+
+-post-compile:
+
+-dex:
+      [dex] input: F:\Users\0622\workspace\BitMap\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into F:\Users\0622\workspace\BitMap\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: F:\Users\0622\workspace\BitMap\bin\demo.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 2 seconds
+[100%] /data/local/tmp/demo.jar
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.tencent.BitMap:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testIsSame
+
+INSTRUMENTATION_STATUS: class=com.tencent.BitMap
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+0
+
+0
+
+相似度1.0
+
+/mnt/sdcard/target.jpg
+
+对比结果为true
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testIsSame
+
+INSTRUMENTATION_STATUS: class=com.tencent.BitMap
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.
+
+Time: 6.432
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+Updated file F:\Users\0622\workspace\BitMap\build.xml
+Buildfile: F:\Users\0622\workspace\BitMap\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 25.2.4
+ [checkenv] Installed at E:\android-sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 25.0.2
+     [echo] Resolving Build Target for demo...
+[getuitarget] Project Target:   Android 4.4W.2
+[getuitarget] API level:        20
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 1 source file to F:\Users\0622\workspace\BitMap\bin\classes
+    [javac] ����: [options] Դֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ŀ��ֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ҫ�����й��ѹ�ʱѡ��ľ���, ��ʹ�� -Xlint:-options��
+    [javac] 3 ������
+
+-post-compile:
+
+-dex:
+      [dex] input: F:\Users\0622\workspace\BitMap\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into F:\Users\0622\workspace\BitMap\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: F:\Users\0622\workspace\BitMap\bin\demo.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 2 seconds
+[100%] /data/local/tmp/demo.jar
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.tencent.BitMap:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testIsSame
+
+INSTRUMENTATION_STATUS: class=com.tencent.BitMap
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+1920
+
+0
+
+0
+
+相似度1.0
+
+/mnt/sdcard/target.jpg
+
+对比结果为true
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testIsSame
+
+INSTRUMENTATION_STATUS: class=com.tencent.BitMap
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.
+
+Time: 6.273
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+Updated file F:\Users\0622\workspace\BitMap\build.xml
+Buildfile: F:\Users\0622\workspace\BitMap\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 25.2.4
+ [checkenv] Installed at E:\android-sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 25.0.2
+     [echo] Resolving Build Target for demo...
+[getuitarget] Project Target:   Android 4.4W.2
+[getuitarget] API level:        20
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 1 source file to F:\Users\0622\workspace\BitMap\bin\classes
+    [javac] ����: [options] Դֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ŀ��ֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ҫ�����й��ѹ�ʱѡ��ľ���, ��ʹ�� -Xlint:-options��
+    [javac] 3 ������
+
+-post-compile:
+
+-dex:
+      [dex] input: F:\Users\0622\workspace\BitMap\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into F:\Users\0622\workspace\BitMap\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: F:\Users\0622\workspace\BitMap\bin\demo.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 2 seconds
+[100%] /data/local/tmp/demo.jar
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.tencent.BitMap:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testIsSame
+
+INSTRUMENTATION_STATUS: class=com.tencent.BitMap
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+1920
+
+319701
+
+相似度0.8458232060185185
+
+/mnt/sdcard/target.jpg
+
+对比结果为false
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testIsSame
+
+INSTRUMENTATION_STATUS: class=com.tencent.BitMap
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.
+
+Time: 7.727
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+Updated file F:\Users\0622\workspace\BitMap\build.xml
+Buildfile: F:\Users\0622\workspace\BitMap\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 25.2.4
+ [checkenv] Installed at E:\android-sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 25.0.2
+     [echo] Resolving Build Target for demo...
+[getuitarget] Project Target:   Android 4.4W.2
+[getuitarget] API level:        20
+     [echo] ----------
+     [echo] Creating output directories if needed...
+    [mkdir] Created dir: F:\Users\0622\workspace\BitMap\bin\classes
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 5 source files to F:\Users\0622\workspace\BitMap\bin\classes
+    [javac] ����: [options] Դֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ŀ��ֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ҫ�����й��ѹ�ʱѡ��ľ���, ��ʹ�� -Xlint:-options��
+    [javac] 3 ������
+    [javac] Creating empty F:\Users\0622\workspace\BitMap\bin\classes\com\tencent\package-info.class
+
+-post-compile:
+
+-dex:
+      [dex] input: F:\Users\0622\workspace\BitMap\bin\classes
+      [dex] Converting compiled files and external libraries into F:\Users\0622\workspace\BitMap\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: F:\Users\0622\workspace\BitMap\bin\demo.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 4 seconds
+adb: error: connect failed: no devices/emulators found
+error: no devices/emulators found
+Updated file F:\Users\0622\workspace\BitMap\build.xml
+Buildfile: F:\Users\0622\workspace\BitMap\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 25.2.4
+ [checkenv] Installed at E:\android-sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 25.0.2
+     [echo] Resolving Build Target for demo...
+[getuitarget] Project Target:   Android 4.4W.2
+[getuitarget] API level:        20
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 1 source file to F:\Users\0622\workspace\BitMap\bin\classes
+    [javac] ����: [options] Դֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ŀ��ֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ҫ�����й��ѹ�ʱѡ��ľ���, ��ʹ�� -Xlint:-options��
+    [javac] 3 ������
+
+-post-compile:
+
+-dex:
+      [dex] input: F:\Users\0622\workspace\BitMap\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into F:\Users\0622\workspace\BitMap\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: F:\Users\0622\workspace\BitMap\bin\demo.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 2 seconds
+[100%] /data/local/tmp/demo.jar
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.tencent.BitMap:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testIsSame
+
+INSTRUMENTATION_STATUS: class=com.tencent.BitMap
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+
+
+1920
+
+290
+
+相似度0.9998601466049383
+
+/mnt/sdcard/target.jpg
+
+对比结果为false
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testIsSame
+
+INSTRUMENTATION_STATUS: class=com.tencent.BitMap
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.
+
+Time: 6.119
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+Updated file F:\Users\0622\workspace\BitMap\build.xml
+Buildfile: F:\Users\0622\workspace\BitMap\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 25.2.4
+ [checkenv] Installed at E:\android-sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 25.0.2
+     [echo] Resolving Build Target for demo...
+[getuitarget] Project Target:   Android 4.4W.2
+[getuitarget] API level:        20
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 1 source file to F:\Users\0622\workspace\BitMap\bin\classes
+    [javac] ����: [options] Դֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ŀ��ֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ҫ�����й��ѹ�ʱѡ��ľ���, ��ʹ�� -Xlint:-options��
+    [javac] 3 ������
+
+-post-compile:
+
+-dex:
+      [dex] input: F:\Users\0622\workspace\BitMap\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into F:\Users\0622\workspace\BitMap\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: F:\Users\0622\workspace\BitMap\bin\demo.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 2 seconds
+[100%] /data/local/tmp/demo.jar
+INSTRUMENTATION_STATUS: numtests=3
+
+INSTRUMENTATION_STATUS: stream=
+
+com.tencent.BitMap:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testCutImageAndColorPixel
+
+INSTRUMENTATION_STATUS: class=com.tencent.BitMap
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+INSTRUMENTATION_STATUS: numtests=3
+
+INSTRUMENTATION_STATUS: stream=
+
+Error in testCutImageAndColorPixel:
+
+com.android.uiautomator.core.UiObjectNotFoundException: UiSelector[CONTAINER=UiSelector[RESOURCE_ID=com.tencent.qlauncher.lite:id/hotseat], PATTERN=UiSelector[INSTANCE=1, PATTERN=UiSelector[CLASS_REGEX=android.view.View]]]
+
+	at com.android.uiautomator.core.UiObject.getBounds(UiObject.java:827)
+
+	at com.tencent.BitMap.testCutImageAndColorPixel(BitMap.java:35)
+
+	at java.lang.reflect.Method.invokeNative(Native Method)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.start(UiAutomatorTestRunner.java:160)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.run(UiAutomatorTestRunner.java:96)
+
+	at com.android.commands.uiautomator.RunTestCommand.run(RunTestCommand.java:91)
+
+	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
+
+	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+
+	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:248)
+
+	at dalvik.system.NativeStart.main(Native Method)
+
+
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testCutImageAndColorPixel
+
+INSTRUMENTATION_STATUS: class=com.tencent.BitMap
+
+INSTRUMENTATION_STATUS: stack=com.android.uiautomator.core.UiObjectNotFoundException: UiSelector[CONTAINER=UiSelector[RESOURCE_ID=com.tencent.qlauncher.lite:id/hotseat], PATTERN=UiSelector[INSTANCE=1, PATTERN=UiSelector[CLASS_REGEX=android.view.View]]]
+
+	at com.android.uiautomator.core.UiObject.getBounds(UiObject.java:827)
+
+	at com.tencent.BitMap.testCutImageAndColorPixel(BitMap.java:35)
+
+	at java.lang.reflect.Method.invokeNative(Native Method)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.start(UiAutomatorTestRunner.java:160)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.run(UiAutomatorTestRunner.java:96)
+
+	at com.android.commands.uiautomator.RunTestCommand.run(RunTestCommand.java:91)
+
+	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
+
+	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+
+	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:248)
+
+	at dalvik.system.NativeStart.main(Native Method)
+
+
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+INSTRUMENTATION_STATUS: numtests=3
+
+INSTRUMENTATION_STATUS: stream=
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testEmbedText
+
+INSTRUMENTATION_STATUS: class=com.tencent.BitMap
+
+INSTRUMENTATION_STATUS: current=2
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+INSTRUMENTATION_STATUS: numtests=3
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testEmbedText
+
+INSTRUMENTATION_STATUS: class=com.tencent.BitMap
+
+INSTRUMENTATION_STATUS: current=2
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: numtests=3
+
+INSTRUMENTATION_STATUS: stream=
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testIsSame
+
+INSTRUMENTATION_STATUS: class=com.tencent.BitMap
+
+INSTRUMENTATION_STATUS: current=3
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+
+
+1920
+
+0
+
+相似度1.0
+
+/mnt/sdcard/target.jpg
+
+对比结果为true
+
+INSTRUMENTATION_STATUS: numtests=3
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testIsSame
+
+INSTRUMENTATION_STATUS: class=com.tencent.BitMap
+
+INSTRUMENTATION_STATUS: current=3
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.E..
+
+Time: 18.929
+
+
+
+FAILURES!!!
+
+Tests run: 3,  Failures: 0,  Errors: 1
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+Updated file F:\Users\0622\workspace\BitMap\build.xml
+Buildfile: F:\Users\0622\workspace\BitMap\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 25.2.4
+ [checkenv] Installed at E:\android-sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 25.0.2
+     [echo] Resolving Build Target for demo1...
+[getuitarget] Project Target:   Android 4.4W.2
+[getuitarget] API level:        20
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 4 source files to F:\Users\0622\workspace\BitMap\bin\classes
+    [javac] ����: [options] Դֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ŀ��ֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ҫ�����й��ѹ�ʱѡ��ľ���, ��ʹ�� -Xlint:-options��
+    [javac] 3 ������
+
+-post-compile:
+
+-dex:
+      [dex] input: F:\Users\0622\workspace\BitMap\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into F:\Users\0622\workspace\BitMap\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: F:\Users\0622\workspace\BitMap\bin\demo1.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 4 seconds
+adb: error: connect failed: no devices/emulators found
+error: no devices/emulators found
+Updated file F:\Users\0622\workspace\BitMap\build.xml
+Buildfile: F:\Users\0622\workspace\BitMap\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 25.2.4
+ [checkenv] Installed at E:\android-sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 25.0.2
+     [echo] Resolving Build Target for demo1...
+[getuitarget] Project Target:   Android 4.4W.2
+[getuitarget] API level:        20
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+
+-post-compile:
+
+-dex:
+      [dex] input: F:\Users\0622\workspace\BitMap\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into F:\Users\0622\workspace\BitMap\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: F:\Users\0622\workspace\BitMap\bin\demo1.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 1 second
+[100%] /data/local/tmp/demo1.jar
+INSTRUMENTATION_STATUS: numtests=8
+
+INSTRUMENTATION_STATUS: stream=
+
+com.tencent.Demo1:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=test1
+
+INSTRUMENTATION_STATUS: class=com.tencent.Demo1
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+INSTRUMENTATION_STATUS: numtests=8
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=test1
+
+INSTRUMENTATION_STATUS: class=com.tencent.Demo1
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: numtests=8
+
+INSTRUMENTATION_STATUS: stream=
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=test2
+
+INSTRUMENTATION_STATUS: class=com.tencent.Demo1
+
+INSTRUMENTATION_STATUS: current=2
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+INSTRUMENTATION_STATUS: numtests=8
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=test2
+
+INSTRUMENTATION_STATUS: class=com.tencent.Demo1
+
+INSTRUMENTATION_STATUS: current=2
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: numtests=8
+
+INSTRUMENTATION_STATUS: stream=
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=test3
+
+INSTRUMENTATION_STATUS: class=com.tencent.Demo1
+
+INSTRUMENTATION_STATUS: current=3
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+INSTRUMENTATION_STATUS: numtests=8
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=test3
+
+INSTRUMENTATION_STATUS: class=com.tencent.Demo1
+
+INSTRUMENTATION_STATUS: current=3
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: numtests=8
+
+INSTRUMENTATION_STATUS: stream=
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=test4
+
+INSTRUMENTATION_STATUS: class=com.tencent.Demo1
+
+INSTRUMENTATION_STATUS: current=4
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+INSTRUMENTATION_STATUS: numtests=8
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=test4
+
+INSTRUMENTATION_STATUS: class=com.tencent.Demo1
+
+INSTRUMENTATION_STATUS: current=4
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: numtests=8
+
+INSTRUMENTATION_STATUS: stream=
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testBrowser
+
+INSTRUMENTATION_STATUS: class=com.tencent.Demo1
+
+INSTRUMENTATION_STATUS: current=5
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+INSTRUMENTATION_STATUS: numtests=8
+
+INSTRUMENTATION_STATUS: stream=
+
+Error in testBrowser:
+
+com.android.uiautomator.core.UiObjectNotFoundException: UiSelector[TEXT=浏览器]
+
+	at com.android.uiautomator.core.UiObject.clickAndWaitForNewWindow(UiObject.java:432)
+
+	at com.android.uiautomator.core.UiObject.clickAndWaitForNewWindow(UiObject.java:410)
+
+	at com.tencent.Demo1.testBrowser(Demo1.java:31)
+
+	at java.lang.reflect.Method.invokeNative(Native Method)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.start(UiAutomatorTestRunner.java:160)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.run(UiAutomatorTestRunner.java:96)
+
+	at com.android.commands.uiautomator.RunTestCommand.run(RunTestCommand.java:91)
+
+	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
+
+	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+
+	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:248)
+
+	at dalvik.system.NativeStart.main(Native Method)
+
+
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testBrowser
+
+INSTRUMENTATION_STATUS: class=com.tencent.Demo1
+
+INSTRUMENTATION_STATUS: stack=com.android.uiautomator.core.UiObjectNotFoundException: UiSelector[TEXT=浏览器]
+
+	at com.android.uiautomator.core.UiObject.clickAndWaitForNewWindow(UiObject.java:432)
+
+	at com.android.uiautomator.core.UiObject.clickAndWaitForNewWindow(UiObject.java:410)
+
+	at com.tencent.Demo1.testBrowser(Demo1.java:31)
+
+	at java.lang.reflect.Method.invokeNative(Native Method)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.start(UiAutomatorTestRunner.java:160)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.run(UiAutomatorTestRunner.java:96)
+
+	at com.android.commands.uiautomator.RunTestCommand.run(RunTestCommand.java:91)
+
+	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
+
+	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+
+	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:248)
+
+	at dalvik.system.NativeStart.main(Native Method)
+
+
+
+INSTRUMENTATION_STATUS: current=5
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+INSTRUMENTATION_STATUS: numtests=8
+
+INSTRUMENTATION_STATUS: stream=
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testBrowser2
+
+INSTRUMENTATION_STATUS: class=com.tencent.Demo1
+
+INSTRUMENTATION_STATUS: current=6
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+INSTRUMENTATION_STATUS: numtests=8
+
+INSTRUMENTATION_STATUS: stream=
+
+Error in testBrowser2:
+
+com.android.uiautomator.core.UiObjectNotFoundException: UiSelector[TEXT=浏览器]
+
+	at com.android.uiautomator.core.UiObject.clickAndWaitForNewWindow(UiObject.java:432)
+
+	at com.android.uiautomator.core.UiObject.clickAndWaitForNewWindow(UiObject.java:410)
+
+	at com.tencent.Demo1.testBrowser2(Demo1.java:42)
+
+	at java.lang.reflect.Method.invokeNative(Native Method)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.start(UiAutomatorTestRunner.java:160)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.run(UiAutomatorTestRunner.java:96)
+
+	at com.android.commands.uiautomator.RunTestCommand.run(RunTestCommand.java:91)
+
+	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
+
+	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+
+	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:248)
+
+	at dalvik.system.NativeStart.main(Native Method)
+
+
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testBrowser2
+
+INSTRUMENTATION_STATUS: class=com.tencent.Demo1
+
+INSTRUMENTATION_STATUS: stack=com.android.uiautomator.core.UiObjectNotFoundException: UiSelector[TEXT=浏览器]
+
+	at com.android.uiautomator.core.UiObject.clickAndWaitForNewWindow(UiObject.java:432)
+
+	at com.android.uiautomator.core.UiObject.clickAndWaitForNewWindow(UiObject.java:410)
+
+	at com.tencent.Demo1.testBrowser2(Demo1.java:42)
+
+	at java.lang.reflect.Method.invokeNative(Native Method)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.start(UiAutomatorTestRunner.java:160)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.run(UiAutomatorTestRunner.java:96)
+
+	at com.android.commands.uiautomator.RunTestCommand.run(RunTestCommand.java:91)
+
+	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
+
+	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+
+	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:248)
+
+	at dalvik.system.NativeStart.main(Native Method)
+
+
+
+INSTRUMENTATION_STATUS: current=6
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+INSTRUMENTATION_STATUS: numtests=8
+
+INSTRUMENTATION_STATUS: stream=
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testBrowser3
+
+INSTRUMENTATION_STATUS: class=com.tencent.Demo1
+
+INSTRUMENTATION_STATUS: current=7
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+INSTRUMENTATION_STATUS: numtests=8
+
+INSTRUMENTATION_STATUS: stream=
+
+Error in testBrowser3:
+
+com.android.uiautomator.core.UiObjectNotFoundException: UiSelector[TEXT=]
+
+	at com.android.uiautomator.core.UiObject.clickAndWaitForNewWindow(UiObject.java:432)
+
+	at com.android.uiautomator.core.UiObject.clickAndWaitForNewWindow(UiObject.java:410)
+
+	at com.tencent.Demo1.testBrowser3(Demo1.java:53)
+
+	at java.lang.reflect.Method.invokeNative(Native Method)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.start(UiAutomatorTestRunner.java:160)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.run(UiAutomatorTestRunner.java:96)
+
+	at com.android.commands.uiautomator.RunTestCommand.run(RunTestCommand.java:91)
+
+	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
+
+	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+
+	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:248)
+
+	at dalvik.system.NativeStart.main(Native Method)
+
+
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testBrowser3
+
+INSTRUMENTATION_STATUS: class=com.tencent.Demo1
+
+INSTRUMENTATION_STATUS: stack=com.android.uiautomator.core.UiObjectNotFoundException: UiSelector[TEXT=]
+
+	at com.android.uiautomator.core.UiObject.clickAndWaitForNewWindow(UiObject.java:432)
+
+	at com.android.uiautomator.core.UiObject.clickAndWaitForNewWindow(UiObject.java:410)
+
+	at com.tencent.Demo1.testBrowser3(Demo1.java:53)
+
+	at java.lang.reflect.Method.invokeNative(Native Method)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.start(UiAutomatorTestRunner.java:160)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.run(UiAutomatorTestRunner.java:96)
+
+	at com.android.commands.uiautomator.RunTestCommand.run(RunTestCommand.java:91)
+
+	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
+
+	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+
+	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:248)
+
+	at dalvik.system.NativeStart.main(Native Method)
+
+
+
+INSTRUMENTATION_STATUS: current=7
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+INSTRUMENTATION_STATUS: numtests=8
+
+INSTRUMENTATION_STATUS: stream=
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testBrowser4
+
+INSTRUMENTATION_STATUS: class=com.tencent.Demo1
+
+INSTRUMENTATION_STATUS: current=8
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+INSTRUMENTATION_STATUS: numtests=8
+
+INSTRUMENTATION_STATUS: stream=
+
+Error in testBrowser4:
+
+com.android.uiautomator.core.UiObjectNotFoundException: UiSelector[TEXT=浏览器]
+
+	at com.android.uiautomator.core.UiObject.clickAndWaitForNewWindow(UiObject.java:432)
+
+	at com.android.uiautomator.core.UiObject.clickAndWaitForNewWindow(UiObject.java:410)
+
+	at com.tencent.Demo1.testBrowser4(Demo1.java:64)
+
+	at java.lang.reflect.Method.invokeNative(Native Method)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.start(UiAutomatorTestRunner.java:160)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.run(UiAutomatorTestRunner.java:96)
+
+	at com.android.commands.uiautomator.RunTestCommand.run(RunTestCommand.java:91)
+
+	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
+
+	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+
+	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:248)
+
+	at dalvik.system.NativeStart.main(Native Method)
+
+
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testBrowser4
+
+INSTRUMENTATION_STATUS: class=com.tencent.Demo1
+
+INSTRUMENTATION_STATUS: stack=com.android.uiautomator.core.UiObjectNotFoundException: UiSelector[TEXT=浏览器]
+
+	at com.android.uiautomator.core.UiObject.clickAndWaitForNewWindow(UiObject.java:432)
+
+	at com.android.uiautomator.core.UiObject.clickAndWaitForNewWindow(UiObject.java:410)
+
+	at com.tencent.Demo1.testBrowser4(Demo1.java:64)
+
+	at java.lang.reflect.Method.invokeNative(Native Method)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.start(UiAutomatorTestRunner.java:160)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.run(UiAutomatorTestRunner.java:96)
+
+	at com.android.commands.uiautomator.RunTestCommand.run(RunTestCommand.java:91)
+
+	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
+
+	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+
+	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:248)
+
+	at dalvik.system.NativeStart.main(Native Method)
+
+
+
+INSTRUMENTATION_STATUS: current=8
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.....E.E.E.E
+
+Time: 54.142
+
+
+
+FAILURES!!!
+
+Tests run: 8,  Failures: 0,  Errors: 4
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+Updated file F:\Users\0622\workspace\BitMap\build.xml
+Buildfile: F:\Users\0622\workspace\BitMap\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 25.2.4
+ [checkenv] Installed at E:\android-sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 25.0.2
+     [echo] Resolving Build Target for demo1...
+[getuitarget] Project Target:   Android 4.4W.2
+[getuitarget] API level:        20
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+
+-post-compile:
+
+-dex:
+      [dex] input: F:\Users\0622\workspace\BitMap\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into F:\Users\0622\workspace\BitMap\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: F:\Users\0622\workspace\BitMap\bin\demo1.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 1 second
+[100%] /data/local/tmp/demo1.jar
+INSTRUMENTATION_STATUS: numtests=8
+
+INSTRUMENTATION_STATUS: stream=
+
+com.tencent.Demo1:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=test1
+
+INSTRUMENTATION_STATUS: class=com.tencent.Demo1
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+INSTRUMENTATION_STATUS: numtests=8
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=test1
+
+INSTRUMENTATION_STATUS: class=com.tencent.Demo1
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: numtests=8
+
+INSTRUMENTATION_STATUS: stream=
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=test2
+
+INSTRUMENTATION_STATUS: class=com.tencent.Demo1
+
+INSTRUMENTATION_STATUS: current=2
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+INSTRUMENTATION_STATUS: numtests=8
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=test2
+
+INSTRUMENTATION_STATUS: class=com.tencent.Demo1
+
+INSTRUMENTATION_STATUS: current=2
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: numtests=8
+
+INSTRUMENTATION_STATUS: stream=
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=test3
+
+INSTRUMENTATION_STATUS: class=com.tencent.Demo1
+
+INSTRUMENTATION_STATUS: current=3
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+INSTRUMENTATION_STATUS: numtests=8
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=test3
+
+INSTRUMENTATION_STATUS: class=com.tencent.Demo1
+
+INSTRUMENTATION_STATUS: current=3
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: numtests=8
+
+INSTRUMENTATION_STATUS: stream=
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=test4
+
+INSTRUMENTATION_STATUS: class=com.tencent.Demo1
+
+INSTRUMENTATION_STATUS: current=4
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+INSTRUMENTATION_STATUS: numtests=8
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=test4
+
+INSTRUMENTATION_STATUS: class=com.tencent.Demo1
+
+INSTRUMENTATION_STATUS: current=4
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: numtests=8
+
+INSTRUMENTATION_STATUS: stream=
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testBrowser
+
+INSTRUMENTATION_STATUS: class=com.tencent.Demo1
+
+INSTRUMENTATION_STATUS: current=5
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+INSTRUMENTATION_STATUS: numtests=8
+
+INSTRUMENTATION_STATUS: stream=
+
+Error in testBrowser:
+
+com.android.uiautomator.core.UiObjectNotFoundException: UiSelector[TEXT=浏览器]
+
+	at com.android.uiautomator.core.UiObject.clickAndWaitForNewWindow(UiObject.java:432)
+
+	at com.android.uiautomator.core.UiObject.clickAndWaitForNewWindow(UiObject.java:410)
+
+	at com.tencent.Demo1.testBrowser(Demo1.java:31)
+
+	at java.lang.reflect.Method.invokeNative(Native Method)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.start(UiAutomatorTestRunner.java:160)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.run(UiAutomatorTestRunner.java:96)
+
+	at com.android.commands.uiautomator.RunTestCommand.run(RunTestCommand.java:91)
+
+	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
+
+	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+
+	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:248)
+
+	at dalvik.system.NativeStart.main(Native Method)
+
+
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testBrowser
+
+INSTRUMENTATION_STATUS: class=com.tencent.Demo1
+
+INSTRUMENTATION_STATUS: stack=com.android.uiautomator.core.UiObjectNotFoundException: UiSelector[TEXT=浏览器]
+
+	at com.android.uiautomator.core.UiObject.clickAndWaitForNewWindow(UiObject.java:432)
+
+	at com.android.uiautomator.core.UiObject.clickAndWaitForNewWindow(UiObject.java:410)
+
+	at com.tencent.Demo1.testBrowser(Demo1.java:31)
+
+	at java.lang.reflect.Method.invokeNative(Native Method)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.start(UiAutomatorTestRunner.java:160)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.run(UiAutomatorTestRunner.java:96)
+
+	at com.android.commands.uiautomator.RunTestCommand.run(RunTestCommand.java:91)
+
+	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
+
+	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+
+	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:248)
+
+	at dalvik.system.NativeStart.main(Native Method)
+
+
+
+INSTRUMENTATION_STATUS: current=5
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+INSTRUMENTATION_STATUS: numtests=8
+
+INSTRUMENTATION_STATUS: stream=
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testBrowser2
+
+INSTRUMENTATION_STATUS: class=com.tencent.Demo1
+
+INSTRUMENTATION_STATUS: current=6
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+INSTRUMENTATION_STATUS: numtests=8
+
+INSTRUMENTATION_STATUS: stream=
+
+Error in testBrowser2:
+
+com.android.uiautomator.core.UiObjectNotFoundException: UiSelector[TEXT=浏览器]
+
+	at com.android.uiautomator.core.UiObject.clickAndWaitForNewWindow(UiObject.java:432)
+
+	at com.android.uiautomator.core.UiObject.clickAndWaitForNewWindow(UiObject.java:410)
+
+	at com.tencent.Demo1.testBrowser2(Demo1.java:42)
+
+	at java.lang.reflect.Method.invokeNative(Native Method)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.start(UiAutomatorTestRunner.java:160)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.run(UiAutomatorTestRunner.java:96)
+
+	at com.android.commands.uiautomator.RunTestCommand.run(RunTestCommand.java:91)
+
+	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
+
+	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+
+	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:248)
+
+	at dalvik.system.NativeStart.main(Native Method)
+
+
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testBrowser2
+
+INSTRUMENTATION_STATUS: class=com.tencent.Demo1
+
+INSTRUMENTATION_STATUS: stack=com.android.uiautomator.core.UiObjectNotFoundException: UiSelector[TEXT=浏览器]
+
+	at com.android.uiautomator.core.UiObject.clickAndWaitForNewWindow(UiObject.java:432)
+
+	at com.android.uiautomator.core.UiObject.clickAndWaitForNewWindow(UiObject.java:410)
+
+	at com.tencent.Demo1.testBrowser2(Demo1.java:42)
+
+	at java.lang.reflect.Method.invokeNative(Native Method)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.start(UiAutomatorTestRunner.java:160)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.run(UiAutomatorTestRunner.java:96)
+
+	at com.android.commands.uiautomator.RunTestCommand.run(RunTestCommand.java:91)
+
+	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
+
+	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+
+	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:248)
+
+	at dalvik.system.NativeStart.main(Native Method)
+
+
+
+INSTRUMENTATION_STATUS: current=6
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+INSTRUMENTATION_STATUS: numtests=8
+
+INSTRUMENTATION_STATUS: stream=
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testBrowser3
+
+INSTRUMENTATION_STATUS: class=com.tencent.Demo1
+
+INSTRUMENTATION_STATUS: current=7
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+INSTRUMENTATION_STATUS: numtests=8
+
+INSTRUMENTATION_STATUS: stream=
+
+Error in testBrowser3:
+
+com.android.uiautomator.core.UiObjectNotFoundException: UiSelector[TEXT=]
+
+	at com.android.uiautomator.core.UiObject.clickAndWaitForNewWindow(UiObject.java:432)
+
+	at com.android.uiautomator.core.UiObject.clickAndWaitForNewWindow(UiObject.java:410)
+
+	at com.tencent.Demo1.testBrowser3(Demo1.java:53)
+
+	at java.lang.reflect.Method.invokeNative(Native Method)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.start(UiAutomatorTestRunner.java:160)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.run(UiAutomatorTestRunner.java:96)
+
+	at com.android.commands.uiautomator.RunTestCommand.run(RunTestCommand.java:91)
+
+	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
+
+	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+
+	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:248)
+
+	at dalvik.system.NativeStart.main(Native Method)
+
+
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testBrowser3
+
+INSTRUMENTATION_STATUS: class=com.tencent.Demo1
+
+INSTRUMENTATION_STATUS: stack=com.android.uiautomator.core.UiObjectNotFoundException: UiSelector[TEXT=]
+
+	at com.android.uiautomator.core.UiObject.clickAndWaitForNewWindow(UiObject.java:432)
+
+	at com.android.uiautomator.core.UiObject.clickAndWaitForNewWindow(UiObject.java:410)
+
+	at com.tencent.Demo1.testBrowser3(Demo1.java:53)
+
+	at java.lang.reflect.Method.invokeNative(Native Method)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.start(UiAutomatorTestRunner.java:160)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.run(UiAutomatorTestRunner.java:96)
+
+	at com.android.commands.uiautomator.RunTestCommand.run(RunTestCommand.java:91)
+
+	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
+
+	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+
+	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:248)
+
+	at dalvik.system.NativeStart.main(Native Method)
+
+
+
+INSTRUMENTATION_STATUS: current=7
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+INSTRUMENTATION_STATUS: numtests=8
+
+INSTRUMENTATION_STATUS: stream=
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testBrowser4
+
+INSTRUMENTATION_STATUS: class=com.tencent.Demo1
+
+INSTRUMENTATION_STATUS: current=8
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+INSTRUMENTATION_STATUS: numtests=8
+
+INSTRUMENTATION_STATUS: stream=
+
+Error in testBrowser4:
+
+com.android.uiautomator.core.UiObjectNotFoundException: UiSelector[TEXT=浏览器]
+
+	at com.android.uiautomator.core.UiObject.clickAndWaitForNewWindow(UiObject.java:432)
+
+	at com.android.uiautomator.core.UiObject.clickAndWaitForNewWindow(UiObject.java:410)
+
+	at com.tencent.Demo1.testBrowser4(Demo1.java:64)
+
+	at java.lang.reflect.Method.invokeNative(Native Method)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.start(UiAutomatorTestRunner.java:160)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.run(UiAutomatorTestRunner.java:96)
+
+	at com.android.commands.uiautomator.RunTestCommand.run(RunTestCommand.java:91)
+
+	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
+
+	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+
+	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:248)
+
+	at dalvik.system.NativeStart.main(Native Method)
+
+
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testBrowser4
+
+INSTRUMENTATION_STATUS: class=com.tencent.Demo1
+
+INSTRUMENTATION_STATUS: stack=com.android.uiautomator.core.UiObjectNotFoundException: UiSelector[TEXT=浏览器]
+
+	at com.android.uiautomator.core.UiObject.clickAndWaitForNewWindow(UiObject.java:432)
+
+	at com.android.uiautomator.core.UiObject.clickAndWaitForNewWindow(UiObject.java:410)
+
+	at com.tencent.Demo1.testBrowser4(Demo1.java:64)
+
+	at java.lang.reflect.Method.invokeNative(Native Method)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.start(UiAutomatorTestRunner.java:160)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.run(UiAutomatorTestRunner.java:96)
+
+	at com.android.commands.uiautomator.RunTestCommand.run(RunTestCommand.java:91)
+
+	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
+
+	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+
+	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:248)
+
+	at dalvik.system.NativeStart.main(Native Method)
+
+
+
+INSTRUMENTATION_STATUS: current=8
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.....E.E.E.E
+
+Time: 54.263
+
+
+
+FAILURES!!!
+
+Tests run: 8,  Failures: 0,  Errors: 4
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+Updated file F:\Users\0622\workspace\BitMap\build.xml
+Buildfile: F:\Users\0622\workspace\BitMap\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 25.2.4
+ [checkenv] Installed at E:\android-sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 25.0.2
+     [echo] Resolving Build Target for demo...
+[getuitarget] Project Target:   Android 4.4W.2
+[getuitarget] API level:        20
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 1 source file to F:\Users\0622\workspace\BitMap\bin\classes
+    [javac] ����: [options] Դֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ŀ��ֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ҫ�����й��ѹ�ʱѡ��ľ���, ��ʹ�� -Xlint:-options��
+    [javac] 3 ������
+
+-post-compile:
+
+-dex:
+      [dex] input: F:\Users\0622\workspace\BitMap\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into F:\Users\0622\workspace\BitMap\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: F:\Users\0622\workspace\BitMap\bin\demo.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 3 seconds
+[100%] /data/local/tmp/demo.jar
+INSTRUMENTATION_STATUS: numtests=3
+
+INSTRUMENTATION_STATUS: stream=
+
+com.tencent.BitMap:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testCutImageAndColorPixel
+
+INSTRUMENTATION_STATUS: class=com.tencent.BitMap
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+INSTRUMENTATION_STATUS: numtests=3
+
+INSTRUMENTATION_STATUS: stream=
+
+Error in testCutImageAndColorPixel:
+
+com.android.uiautomator.core.UiObjectNotFoundException: UiSelector[CONTAINER=UiSelector[RESOURCE_ID=com.tencent.qlauncher.lite:id/hotseat], PATTERN=UiSelector[INSTANCE=1, PATTERN=UiSelector[CLASS_REGEX=android.view.View]]]
+
+	at com.android.uiautomator.core.UiObject.getBounds(UiObject.java:827)
+
+	at com.tencent.BitMap.testCutImageAndColorPixel(BitMap.java:45)
+
+	at java.lang.reflect.Method.invokeNative(Native Method)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.start(UiAutomatorTestRunner.java:160)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.run(UiAutomatorTestRunner.java:96)
+
+	at com.android.commands.uiautomator.RunTestCommand.run(RunTestCommand.java:91)
+
+	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
+
+	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+
+	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:248)
+
+	at dalvik.system.NativeStart.main(Native Method)
+
+
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testCutImageAndColorPixel
+
+INSTRUMENTATION_STATUS: class=com.tencent.BitMap
+
+INSTRUMENTATION_STATUS: stack=com.android.uiautomator.core.UiObjectNotFoundException: UiSelector[CONTAINER=UiSelector[RESOURCE_ID=com.tencent.qlauncher.lite:id/hotseat], PATTERN=UiSelector[INSTANCE=1, PATTERN=UiSelector[CLASS_REGEX=android.view.View]]]
+
+	at com.android.uiautomator.core.UiObject.getBounds(UiObject.java:827)
+
+	at com.tencent.BitMap.testCutImageAndColorPixel(BitMap.java:45)
+
+	at java.lang.reflect.Method.invokeNative(Native Method)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.start(UiAutomatorTestRunner.java:160)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.run(UiAutomatorTestRunner.java:96)
+
+	at com.android.commands.uiautomator.RunTestCommand.run(RunTestCommand.java:91)
+
+	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
+
+	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+
+	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:248)
+
+	at dalvik.system.NativeStart.main(Native Method)
+
+
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+INSTRUMENTATION_STATUS: numtests=3
+
+INSTRUMENTATION_STATUS: stream=
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testEmbedText
+
+INSTRUMENTATION_STATUS: class=com.tencent.BitMap
+
+INSTRUMENTATION_STATUS: current=2
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+INSTRUMENTATION_STATUS: numtests=3
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testEmbedText
+
+INSTRUMENTATION_STATUS: class=com.tencent.BitMap
+
+INSTRUMENTATION_STATUS: current=2
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: numtests=3
+
+INSTRUMENTATION_STATUS: stream=
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testIsSame
+
+INSTRUMENTATION_STATUS: class=com.tencent.BitMap
+
+INSTRUMENTATION_STATUS: current=3
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+
+
+1920
+
+1119685
+
+相似度0.4600284529320988
+
+/mnt/sdcard/target.jpg
+
+对比结果为false
+
+INSTRUMENTATION_STATUS: numtests=3
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testIsSame
+
+INSTRUMENTATION_STATUS: class=com.tencent.BitMap
+
+INSTRUMENTATION_STATUS: current=3
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.E..
+
+Time: 20.331
+
+
+
+FAILURES!!!
+
+Tests run: 3,  Failures: 0,  Errors: 1
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+Updated file F:\Users\0622\workspace\BitMap\build.xml
+Buildfile: F:\Users\0622\workspace\BitMap\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 25.2.4
+ [checkenv] Installed at E:\android-sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 25.0.2
+     [echo] Resolving Build Target for demo1...
+[getuitarget] Project Target:   Android 4.4W.2
+[getuitarget] API level:        20
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 1 source file to F:\Users\0622\workspace\BitMap\bin\classes
+    [javac] ����: [options] Դֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ŀ��ֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ҫ�����й��ѹ�ʱѡ��ľ���, ��ʹ�� -Xlint:-options��
+    [javac] 3 ������
+
+-post-compile:
+
+-dex:
+      [dex] input: F:\Users\0622\workspace\BitMap\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into F:\Users\0622\workspace\BitMap\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: F:\Users\0622\workspace\BitMap\bin\demo1.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 2 seconds
+[100%] /data/local/tmp/demo1.jar
+INSTRUMENTATION_STATUS: numtests=3
+
+INSTRUMENTATION_STATUS: stream=
+
+com.tencent.BitMap:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testCutImageAndColorPixel
+
+INSTRUMENTATION_STATUS: class=com.tencent.BitMap
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+ddd 
+
+颜色值为：-10359456
+
+INSTRUMENTATION_STATUS: numtests=3
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testCutImageAndColorPixel
+
+INSTRUMENTATION_STATUS: class=com.tencent.BitMap
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: numtests=3
+
+INSTRUMENTATION_STATUS: stream=
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testEmbedText
+
+INSTRUMENTATION_STATUS: class=com.tencent.BitMap
+
+INSTRUMENTATION_STATUS: current=2
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+INSTRUMENTATION_STATUS: numtests=3
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testEmbedText
+
+INSTRUMENTATION_STATUS: class=com.tencent.BitMap
+
+INSTRUMENTATION_STATUS: current=2
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: numtests=3
+
+INSTRUMENTATION_STATUS: stream=
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testIsSame
+
+INSTRUMENTATION_STATUS: class=com.tencent.BitMap
+
+INSTRUMENTATION_STATUS: current=3
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+
+
+1920
+
+259
+
+相似度0.9998750964506172
+
+/mnt/sdcard/target.jpg
+
+对比结果为false
+
+INSTRUMENTATION_STATUS: numtests=3
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testIsSame
+
+INSTRUMENTATION_STATUS: class=com.tencent.BitMap
+
+INSTRUMENTATION_STATUS: current=3
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=...
+
+Time: 23.026
+
+
+
+OK (3 tests)
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+Updated file F:\Users\0622\workspace\BitMap\build.xml
+Buildfile: F:\Users\0622\workspace\BitMap\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 25.2.4
+ [checkenv] Installed at E:\android-sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 25.0.2
+     [echo] Resolving Build Target for demo1...
+[getuitarget] Project Target:   Android 4.4W.2
+[getuitarget] API level:        20
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+
+-post-compile:
+
+-dex:
+      [dex] input: F:\Users\0622\workspace\BitMap\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into F:\Users\0622\workspace\BitMap\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: F:\Users\0622\workspace\BitMap\bin\demo1.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 1 second
+[100%] /data/local/tmp/demo1.jar
+INSTRUMENTATION_STATUS: numtests=3
+
+INSTRUMENTATION_STATUS: stream=
+
+com.tencent.BitMap:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testCutImageAndColorPixel
+
+INSTRUMENTATION_STATUS: class=com.tencent.BitMap
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+ddd 
+
+颜色值为：-10359456
+
+INSTRUMENTATION_STATUS: numtests=3
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testCutImageAndColorPixel
+
+INSTRUMENTATION_STATUS: class=com.tencent.BitMap
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: numtests=3
+
+INSTRUMENTATION_STATUS: stream=
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testEmbedText
+
+INSTRUMENTATION_STATUS: class=com.tencent.BitMap
+
+INSTRUMENTATION_STATUS: current=2
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+referenceTable GDEF length=40 1
+
+referenceTable GSUB length=268 1
+
+referenceTable GPOS length=48 1
+
+referenceTable GDEF length=778 1
+
+referenceTable GSUB length=6388 1
+
+referenceTable GPOS length=66796 1
+
+INSTRUMENTATION_STATUS: numtests=3
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testEmbedText
+
+INSTRUMENTATION_STATUS: class=com.tencent.BitMap
+
+INSTRUMENTATION_STATUS: current=2
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: numtests=3
+
+INSTRUMENTATION_STATUS: stream=
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testIsSame
+
+INSTRUMENTATION_STATUS: class=com.tencent.BitMap
+
+INSTRUMENTATION_STATUS: current=3
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+
+
+2560
+
+33070
+
+相似度0.9910291883680555
+
+/mnt/sdcard/target.jpg
+
+对比结果为false
+
+INSTRUMENTATION_STATUS: numtests=3
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testIsSame
+
+INSTRUMENTATION_STATUS: class=com.tencent.BitMap
+
+INSTRUMENTATION_STATUS: current=3
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=...
+
+Time: 24.972
+
+
+
+OK (3 tests)
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
